@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+.clearfix{
+    clear: both;
+}
+header{
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.container1{
+    width: 883px;
+    margin: auto;
+    padding: 20px;
+}
+.logo{
+    width:200px;
+    float: left;
+}
+.logo img{
+    max-width: 100%;
+}
+.nav{
+    float: right;
+}
+.nav ul{ 
+    margin: 0;
+    padding: 0;  
+}
+.nav ul li{
+    list-style: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+    
+.nav  ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    color: aliceblue;
+    
+}
+.banner{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+   
+}
+.banner img{
+    width: 100%;
+}
+.banner .box1{
+    width: 80%;
+    position: absolute;
+    background-color: rgba(75, 75, 222,0.8);
+    padding: 50px 20px;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    bottom: 27%;
+}
+.box1 h1{
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    color:aliceblue;
+}
+.box1 h2{
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+    color:aliceblue;
+}
+.box1 h2 span{
+    border-bottom: 4px solid rgb(14, 146, 228);
+}
+.box1  p{
+    text-align: center;
+    padding: 20px;
+}
+.box1 button{
+    display: table;
+    margin: auto;
+    border: none;
+    background-color: rgb(23, 166, 166);
+    padding: 12px 42px;
+}
+.box1 button a{
+    color:aliceblue;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-decoration: none;
+    
+}
+.box2{
+    position: relative;
+    z-index: 3;
+    width: 74%;
+    margin-left: 20%;
+    padding: 20px 60px;    
+    right: 8%;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;   
+    background-color: aliceblue;
+}
+.box2 h3{
+    font-weight:100;
+    text-transform: uppercase;
+    color:rgb(56, 24, 218);
+    word-spacing: 3px;
+    background-color: aliceblue;
+
+}
+.box2 h3 span{
+    border-bottom: 4px solid rgb(14, 146, 228);
+    font-weight: 900;
+    padding: 12px;
+}
+.box2 .part1{
+    width: 60%;
+    float: left;
+}
+.box2 .part1 p{
+    text-align: justify;
+    font-weight: 100;
+    font-size: small;
+    padding-right: 20px;
+    
+}
+.box2 .part1 p span{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.box2 .part2{
+    width: 40%;
+    float: left;
+    padding-left: 10px;
+    background-color: aliceblue;
+}
+.box2 .part2 ul{
+    padding: 0;
+    margin: 0;
+}
+.box2 .part2 ul li{
+    list-style: none;
+    padding: 7px;
+    padding: 10px;
+    font-size: small;
+    text-decoration: none;
+}
+.box2 .part2 ul li a{
+    text-decoration: none;
+}
+.box3{
+    width: 30%;
+    position: absolute;
+    z-index: 2;
+    top: 125%;
+    right: 11%;
+}
+.box3 img{
+    width: 100%;
+}
+.box4{
+    width: 88%;
+    height: 270px;
+    background-color: rgb(151, 198, 209);
+    top: 150%;
+    position: absolute;
+    margin: auto;
+}
+.box5{
+    width: 80%;
+    margin: 10% auto;
+}
+.box5 p{
+    font-size:small;
+    text-align: justify;
+}
+.box5 .flower{
+    width: 30%;
+    float: left;
+    border: 1px solid blue;
+}
+.box5 .flower img{
+    width: 100%;
+}
+.box5 .devide{
+    width: 70%;
+    float: left;
+}
+.box5 .devide .part3{
+    width: 50%;
+    float: left;
+    height: 150px;
+    background-color: rgb(7, 7, 63);
+   color: aliceblue;
+   padding: 12px;
+}
+.box5 .devide .part4{
+    width: 50%;
+    float: left;
+    height: 150px;
+    background-color: rgb(160, 163, 166);
+    display: block;
+    padding: 12px;
+}
+.box5 .devide .part5 {
+    width: 100%;
+   padding: 71px 50px;
+   background-color: aliceblue;
+   height: 100%;
+   
+}
+.box5 .devide .part5 p{
+    padding: 10px 55px;
+}
+.box5 .devide .part5 i{
+    font-weight: 900;
+    font-size: xx-large;
+    color: aquamarine;
+}
+.box5 .devide .part5 span i{
+    margin-left: 95%;
+}
+.container2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/Sunrise-over-Juno-pier.jpg);
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container2 .box6 {
+    position: relative;
+    z-index: 4;
+    width: 1000px;
+    height: 450px;
+    background-color: rgba(33, 33, 79, 0.73);
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    top: 15%;
+}
+.box7 {
+    width: 40%;
+    float: left;
+}
+
+.box7 .content {
+    color: white;
+    padding-left: 50px;
+}
+
+.box7 .content p {
+    font-size: small;
+}
+.box8 {
+    position: absolute;
+    z-index: 5;
+    width: 420px;
+    padding: 10px;
+    
+    left: 50%;
+    top: 10%;
+    background-color: aliceblue;
+    box-shadow: #07070ce0;
+    }
+    .box8 button {
+        padding: 6px 12px;
+        background-color: rgb(56, 56, 211);
+        color: aliceblue;
+        border: none;
+        display: table;
+        margin: auto;
+       margin-top: 5px;
+       margin-bottom: 15px;
+    }
+
+.box8 h2 {
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.box8 h5 {
+    border: 1px solid rgb(159, 156, 156);
+    margin: 17px;
+    padding: 9px;
+}
+
+.box8 ul {
+    margin: 0;
+    padding: 0;
+}
+
+.box8 ul li {
+    list-style: none;
+    margin: 10px;
+}
+.box8 ul li button{
+    padding:10px 60px;
+    background-color: rgb(87, 38, 107);
+    font-size: larger;
+    color: white;
+    margin-left: 104px;
+    border: none;
+}
+.box8 input {
+    width: 90%;
+    margin: 15px 5px;
+    padding: 10px;
+}
+.box9 {
+    margin: 120px auto 30px;
+    width: 800px;
+}
+.box9 h2 span{
+    border-bottom: 4px solid rgb(19, 178, 210);
+    padding-bottom: 13px;    
+}
+.box9 h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+
+}
+.container5{
+    width: 70%;
+    margin:20px  auto;
+    padding-bottom: 10px;
+}
+.container5 .div{
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+}
+.container5 .div img{
+    width: 100%;
+    border-radius: 160px;
+}
+.container5 .div1{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.container5 .div1 img{
+    width: 100%;
+    border-radius: 160px;
+}
+footer{
+    width: 100%;
+    background-color: #050762a8;
+    display: inline-block;
+    color: white;
+}
+footer .container6{
+    width: 70%;
+   margin: auto;
+}
+footer .division{
+    width: 28%;
+    float: left;
+    margin-left: 30px;
+}
+.division ul{
+    margin: 0;
+    padding: 0;
+    
+}
+.division ul li{
+    list-style: none;
+}
+.division ul li h6{
+    margin: 4px;
+    font-weight: 200;
+    
+}
+.division ul li a{
+    text-decoration: none;
+    color: white;
+}
+.division ul li img{
+    width: 130px;
+}
+p{ 
+    text-align: justify;
+}
+footer .division1{
+    width: 28%;
+    float: left;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.division1 ul{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.division1 ul li{
+    list-style: none;
+    margin-top: 6px;
+}
+.division1 ul li h6{
+    margin: 4px;
+    font-weight: 200;
+    
+}
+.division1 ul li i{
+    background-color: rgb(246, 234, 234);
+   font-weight: 700;
+    color: blue;
+}
+.division1 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.division1 ul li img{
+    width: 130px;
+}
+.division1 ul li ul li{
+    list-style: none;
+    display: inline;
+}
+ul li i{
+    padding: 6px;
+    border-radius: 15px;
+}
